@@ -1,0 +1,27 @@
+[Javascript][HTML5]簡単！localStorage使い方超入門 - FireFox編
+
+FireFoxに備わっているHTML5のlocalStorage機能を使うと、Javascriptのデータをブラウザに保存することができます。<br />
+保存した情報は、ブラウザを閉じても保持されます。<br />
+<br />
+使い方は超簡単で、"localStorage"というオブジェクトにプロパティと値を保存するだけです。<br />
+
+<h4>localStorageのサンプルコード</h4>
+<a href="/files/firefox_localStorage.html">デモはこちら。</a><br />
+<br />
+<br />
+<pre><code>
+</code></pre>
+
+<br />
+気軽に試してみましょう！<br />
+
+<h4>FireFoxのローカルストレージの特徴</h4>
+HTMLファイルがローカルにある場合は、ローカルストレージが永続化されないようです。<br />
+つまりWebサーバから配信されたHTMLではなく、自分のPCローカルにあるHTMLファイルでlocalStorageを使った場合は、F5リロードすると
+localStorageが初期化されてしまいます。<br />
+何故このような仕様になっているかはわかりません。
+
+
+<br />
+<h5>参考</h5>
+<a href="http://dqn.sakusakutto.jp/2011/07/javascript-html5-localstorage-chrome.html">[Javascript][HTML5]簡単！localStorage使い方入門 - Chrome編 - DQNEO起業日記</a>
